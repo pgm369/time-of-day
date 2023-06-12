@@ -52,7 +52,7 @@
 				<li>Evening (6pm to 11pm)</li>
 				<li>Night (11pm to 5am)</li>
 			</ul>
-				
+
 	  <img id="my-pic" src="http://dummyimage.com/300x400" alt="Time of Day Image" class="flexible">
      <footer>
       <p><small>&copy; 2022-<span id="copyright">2023</span> by 
@@ -103,7 +103,7 @@
 		//alert("good evening!");
 		myGreeting = "Good Evening!";
 		myColor = "darkolivegreen";
-		myPic = "images/ evening.jpg";
+		myPic = "images/evening.jpg";
 
 	}else{
 		//alert("good night!");
@@ -111,8 +111,7 @@
 		myColor = "darkslategrey";
 		myPic = "images/night.jpg";
 	}
-
-	myPic = "images/" + myPic;
+	
 
 	document.getElementById("my-greeting").innerHTML = myGreeting;
 	document.querySelector("html").style.backgroundColor = myColor;
